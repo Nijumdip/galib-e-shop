@@ -1,2 +1,3 @@
 font awesome
 tailwindCss
+daisyui

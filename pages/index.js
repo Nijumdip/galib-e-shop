@@ -19,8 +19,7 @@ export default function Home() {
                 />
             </Head>
 
-            <h1>Galib E Shop</h1>
-            <h1 className="text-3xl font-bold underline text-sky-500">Hello world!</h1>
+            
         </div>
     );
 }
