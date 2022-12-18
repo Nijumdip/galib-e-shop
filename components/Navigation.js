@@ -30,7 +30,7 @@ const Navigation = () => {
                         >
                             <Link
                                 href="/"
-                                className="text-sm font-bold my-1 bg-sky-300 text-white btn btn-ghost"
+                                className="text-sm font-bold my-1 bg-sky-200 focus:bg-sky-500 btn btn-ghost"
                             >
                                 Home
                             </Link>
@@ -38,7 +38,7 @@ const Navigation = () => {
                             <li tabIndex={0}>
                                 <Link
                                     href="/"
-                                    className="text-sm font-bold mb-1 bg-sky-300 text-white btn btn-ghost"
+                                    className="text-sm font-bold mb-1 bg-sky-200 focus:bg-sky-500 btn btn-ghost"
                                 >
                                     Products
                                     <svg
@@ -61,11 +61,17 @@ const Navigation = () => {
                                 </ul>
                             </li>
 
-                            <Link href="/" className="text-sm font-bold mb-1 bg-sky-300 text-white btn btn-ghost">
+                            <Link
+                                href="/"
+                                className="text-sm font-bold mb-1 bg-sky-200 focus:bg-sky-500 btn btn-ghost"
+                            >
                                 AboutUs
                             </Link>
 
-                            <Link href="/" className="text-sm font-bold mb-1 bg-sky-300 text-white btn btn-ghost">
+                            <Link
+                                href="/"
+                                className="text-sm font-bold mb-1 bg-sky-200 focus:bg-sky-500 btn btn-ghost"
+                            >
                                 ContactUs
                             </Link>
                         </div>
@@ -157,7 +163,7 @@ const Navigation = () => {
                                             d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
                                         />
                                     </svg>
-                                    <span className="badge badge-sm w-5 h-5 text-white indicator-item">
+                                    <span className=" bg-red-500 rounded-full pt-1 w-5 h-5 text-white indicator-item">
                                         8
                                     </span>
                                 </div>
@@ -167,10 +173,15 @@ const Navigation = () => {
                                 className="mt-3 card card-compact dropdown-content w-52 bg-base-100 shadow"
                             >
                                 <div className="card-body">
-                                    <span className="font-bold text-lg">8 Items</span>
-                                    <span className="text-info">Subtotal: $999</span>
+                                    <span className="font-bold text-lg bg-sky-200 p-3 rounded-lg">
+                                        8 Items
+                                    </span>
+                                    <span className="text-black">Subtotal: $999</span>
                                     <div className="card-actions">
-                                        <button className="btn btn-primary btn-block">
+                                        <button
+                                            style={{ background: "#00A9E4" }}
+                                            className="btn btn-block border-none"
+                                        >
                                             View cart
                                         </button>
                                     </div>
@@ -190,15 +201,27 @@ const Navigation = () => {
                                 tabIndex={0}
                                 className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
                             >
-                                <li>
-                                    <a className="justify-between">Profile</a>
-                                </li>
-                                <li>
-                                    <a>Settings</a>
-                                </li>
-                                <li>
-                                    <a>Logout</a>
-                                </li>
+                                <Link
+                                    href="/"
+                                    className="text-sm justify-between font-bold p-2 my-1 rounded bg-sky-200 focus:bg-sky-500 focus:text-white"
+                                >
+                                Profile
+                                </Link>
+
+                                <Link
+                                    href="/"
+                                    className="text-sm justify-between font-bold p-2 rounded bg-sky-200 focus:bg-sky-500 focus:text-white"
+                                >
+                                Settings
+                                </Link>
+
+                                <Link
+                                    href="/"
+                                    className="text-sm justify-between font-bold p-2 my-1 rounded bg-sky-200 focus:bg-sky-500 focus:text-white"
+                                >
+                                Logout
+                                </Link>
+                                
                             </ul>
                         </div>
                     </div>
