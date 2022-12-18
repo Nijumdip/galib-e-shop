@@ -89,7 +89,7 @@ const Navigation = () => {
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             style={{ left: "500px" }}
-                            className="h-5 w-5 absolute top-6 "
+                            className="h-5 w-5 absolute top-6 text-white"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
