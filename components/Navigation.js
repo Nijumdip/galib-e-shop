@@ -30,7 +30,7 @@ const Navigation = () => {
                         >
                             <Link
                                 href="/"
-                                className="text-sm font-bold my-1 bg-sky-200 focus:bg-sky-500 btn btn-ghost"
+                                className="text-sm font-bold my-1 bg-sky-200 focus:bg-sky-500 btn btn-ghost focus:text-white"
                             >
                                 Home
                             </Link>
@@ -38,7 +38,7 @@ const Navigation = () => {
                             <li tabIndex={0}>
                                 <Link
                                     href="/"
-                                    className="text-sm font-bold mb-1 bg-sky-200 focus:bg-sky-500 btn btn-ghost"
+                                    className="text-sm font-bold mb-1 bg-sky-200 focus:bg-sky-500 focus:text-white btn btn-ghost"
                                 >
                                     Products
                                     <svg
@@ -63,14 +63,14 @@ const Navigation = () => {
 
                             <Link
                                 href="/"
-                                className="text-sm font-bold mb-1 bg-sky-200 focus:bg-sky-500 btn btn-ghost"
+                                className="text-sm font-bold mb-1 bg-sky-200 focus:bg-sky-500  focus:text-white btn btn-ghost"
                             >
                                 AboutUs
                             </Link>
 
                             <Link
                                 href="/"
-                                className="text-sm font-bold mb-1 bg-sky-200 focus:bg-sky-500 btn btn-ghost"
+                                className="text-sm font-bold mb-1 bg-sky-200 focus:bg-sky-500 focus:text-white btn btn-ghost"
                             >
                                 ContactUs
                             </Link>
