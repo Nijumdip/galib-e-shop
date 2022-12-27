@@ -84,7 +84,7 @@ const Navigation = () => {
                         <input
                             type="text"
                             placeholder="Search here"
-                            className="input w-full border border-white focus:bg-white bg-sky-300 relative"
+                            className="input w-full border border-white focus:bg-gray-50  bg-sky-400 relative"
                         />
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -203,21 +203,21 @@ const Navigation = () => {
                             >
                                 <Link
                                     href="/"
-                                    className="text-sm justify-between font-bold p-2 my-1 rounded bg-sky-200 focus:bg-sky-500 focus:text-white"
+                                    className="text-sm justify-between font-bold p-2 my-1 rounded bg-sky-100 focus:bg-sky-400 focus:text-white"
                                 >
                                 Profile
                                 </Link>
 
                                 <Link
                                     href="/"
-                                    className="text-sm justify-between font-bold p-2 rounded bg-sky-200 focus:bg-sky-500 focus:text-white"
+                                    className="text-sm justify-between font-bold p-2 rounded bg-sky-100 focus:bg-sky-400 focus:text-white"
                                 >
                                 Settings
                                 </Link>
 
                                 <Link
                                     href="/"
-                                    className="text-sm justify-between font-bold p-2 my-1 rounded bg-sky-200 focus:bg-sky-500 focus:text-white"
+                                    className="text-sm justify-between font-bold p-2 my-1 rounded bg-sky-100 focus:bg-sky-400 focus:text-white"
                                 >
                                 Logout
                                 </Link>
