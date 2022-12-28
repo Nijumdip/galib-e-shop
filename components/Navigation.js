@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -193,8 +194,12 @@ const Navigation = () => {
 
                         <div className="dropdown dropdown-end">
                             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                                {/* <div className="w-10 rounded-full">
+                                    <Image src="https://i.ibb.co/W2h0pRN/people.jpg" width="40" height="40" alt="" />
+                                </div> */}
+                                
                                 <div className="w-10 rounded-full">
-                                    <img src="https://placeimg.com/80/80/people" alt="" />
+                                    <Image src="https://placeimg.com/80/80/people" width="40" height="40" alt="" />
                                 </div>
                             </label>
                             <ul

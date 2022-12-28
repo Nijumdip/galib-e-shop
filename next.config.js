@@ -1,16 +1,32 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  /* images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'i.ibb.co',
+        port: '',
+        pathname: '/**',
+      },
+    ],
+  }, */
+
+  /* images: {
+    domains: ['placeimg.com'],
+  }, */
+
   images: {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 's3.amazonaws.com',
+        hostname: 'placeimg.com',
         port: '',
-        pathname: '/my-bucket/**',
+        pathname: '/**',
       },
     ],
   },
+
 }
 
 module.exports = nextConfig
