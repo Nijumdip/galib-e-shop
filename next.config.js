@@ -1,22 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  /* images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'i.ibb.co',
-        port: '',
-        pathname: '/**',
-      },
-    ],
-  }, */
-
-  /* images: {
-    domains: ['placeimg.com'],
-  }, */
-
   images: {
+    domains: ['placeimg.com', 'oxfordshire.org', 'images.unsplash.com','assets-us-01.kc-usercontent.com'],
+  }, 
+
+  /* images: {
     remotePatterns: [
       {
         protocol: 'https',
@@ -24,8 +13,20 @@ const nextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'oxfordshire.org',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
-  },
+  }, */
 
 }
 

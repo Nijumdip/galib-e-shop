@@ -5,7 +5,7 @@ import React from "react";
 const Navigation = () => {
     return (
         <>
-            <div style={{ background: "#00A9E4" }} className="navbar">
+            <div style={{ background: "#00A9E4" }} className="navbar ">
                 <div className="navbar-start sm:ml-10 ml-0">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
